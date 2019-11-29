@@ -12,7 +12,6 @@ var button = document.createElement('button');
 button.textContent = '전송';
 form.append(button);
 
-var count = 0;
 var failCount = 0;
 
 var numberArray;
