@@ -1,6 +1,5 @@
 var body = document.body;
 var table = document.createElement('table');
-var result = document.createElement('div');
 
 // var first = document.createElement('tr');
 
@@ -124,7 +123,6 @@ for (var i = 0; i < 3; i++) {
     table.appendChild(raw);
 }
 body.appendChild(table);
-body.append(result);
 
 console.log(rawArray, cellArray)
 
